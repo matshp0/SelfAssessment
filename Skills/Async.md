@@ -1,57 +1,57 @@
 ## Asynchronous programming
 
 - Theory
-  - Event loop
-  - `try..catch`
-  - Non-blocking
-  - Async I/O
-  - Thread pool
-  - Pattern Reactor
+  - Event loop u
+  - `try..catch` u
+  - Non-blocking u
+  - Async I/O h
+  - Thread pool h
+  - Pattern Reactor 
   - CAS operations
   - epoll
   - kqueue
   - Completion ports
   - Event ports
-  - libuv
-  - Race conditions
+  - libuv k
+  - Race conditions h
   - Dead locks
   - Live locks
   - Concurrent programming
   - Parallel programming
   - Actor Model
-  - Thread
-  - Process
+  - Thread h
+  - Process h
 - Async contracts
-  - Callbacks
-  - Callback-last-error-first
-  - Thenable
-  - Promise
-  - Async/await
-  - Future
-  - Deferred
-  - Sync generator
-  - Async Generator
-  - Async Iterator
-  - Event
+  - Callbacks u
+  - Callback-last-error-first u
+  - Thenable k
+  - Promise u
+  - Async/await u
+  - Future h
+  - Deferred h
+  - Sync generator u
+  - Async Generator h
+  - Async Iterator k
+  - Event u
   - Coroutine
   - Goroutine
   - Signal
-  - Stream
+  - Stream u
   - Chain of responsibility
   - Middleware
   - Locks
 - Async adapters and utils
-  - callbackify
-  - promisify
-  - asyncify
-  - Callbacks compose
+  - callbackify h
+  - promisify h
+  - asyncify h
+  - Callbacks compose k
   - Async compose
 - Async abstractions interfaces
-  - EventEmitter
+  - EventEmitter u
   - Observable/Observer
-  - Readable
-  - Writable
-  - Transform
+  - Readable u
+  - Writable u
+  - Transform k
   - Async Pool
   - Async Queue
   - Async Collector
@@ -59,17 +59,17 @@
   - Mutex
   - Spin Lock
 - JavaScript & Node.js specific
-  - Timers
-  - `setImmediate`
+  - Timers u
+  - `setImmediate` k
   - `nextTick`
-  - AbortController
-  - AbortSignal
-  - Promise unhandled rejection
+  - AbortController k
+  - AbortSignal k
+  - Promise unhandled rejection k
   - Promise double resolve
   - Atomics
   - High resolution clock
-  - Callback hell
-  - Promise hell
+  - Callback hell k
+  - Promise hell k
   - ref() and unref()
   - Error handling in async code
   - Better stack traces with return await
@@ -79,11 +79,11 @@
 - Techniques
   - Async.js library
   - RxJS library
-  - Promise.all
+  - Promise.all k
   - Promise.allSettled
-  - Promise.race
-  - Promise.any
+  - Promise.race k
+  - Promise.any k
   - Web Locks API
   - IPC
   - Channel API
-  - Revealing constructor
+  - Revealing constructor k
