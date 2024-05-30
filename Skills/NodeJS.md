@@ -1,48 +1,48 @@
 ## Node.js and backend
 
 - Internals and concepts
-  - Strong and weak sides of node.js
-  - Stateful and stateless servers
-  - Nonblocking I/O and blocking code
-  - Event loop phases
-  - Event loop microtasks and macrotasks
-  - Garbage collection
+  - Strong and weak sides of node.js h
+  - Stateful and stateless servers h
+  - Nonblocking I/O and blocking code k
+  - Event loop phases k
+  - Event loop microtasks and macrotasks k
+  - Garbage collection u
   - Node.js LTS schedule
   - I/O-bound, CPU-bound, memory-bound tasks
   - Interactive applications (close to real-time)
 - Modularity, layers and dependencies
-  - CommonJS modules
-  - ECMAScript modules
+  - CommonJS modules k
+  - ECMAScript modules k
   - Module `node:module`
   - Caching in CJS and ESM
   - Modules as singletons
-  - Contexts and scripts module `node:vm`
-  - Dependencies: `npm`, `node_modules`
-  - Files `package.json`, `package-lock.json`
+  - Contexts and scripts module `node:vm` h
+  - Dependencies: `npm`, `node_modules` k
+  - Files `package.json`, `package-lock.json` k
   - Module-based permissions model
   - Isolation with modularity
-  - Dependency injection
+  - Dependency injection h
   - DI containers
   - Coupling and cohesion
   - Framework agnostic approach
 - Environment
   - Command line arguments
-  - Node.js CLI
+  - Node.js CLI h
   - Process-based permissions
-  - Graceful shutdown
-  - Clustering
-  - Watch filesystem changes with --watch
+  - Graceful shutdown k
+  - Clustering h
+  - Watch filesystem changes with --watch h
 - Internal API
-  - Streams API
+  - Streams API h
   - Web Streams API
-  - Crypto API
+  - Crypto API h
   - Password hashing with crypto.scrypt
   - Web Crypto API
-  - File system API (sync and async)
+  - File system API (sync and async) k
   - Copy folder recursively
-  - Worker threads
+  - Worker threads h
   - Performance hooks
-  - Native fetch and nodejs/undici
+  - Native fetch and nodejs/undici h
   - async_hooks
   - AsyncLocalStorage
   - AsyncResource
@@ -67,39 +67,39 @@
   - Protocol agnostic approach
   - Fetch API
   - IncomingMessage
-  - HTTP(S)
-  - TCP/SSL
-  - UDP
-  - TLS
-  - Websocket
+  - HTTP(S) k
+  - TCP/SSL h
+  - UDP k
+  - TLS h
+  - Websocket k
   - SSE
   - HTTP/3 (QUIC)
-  - Long polling
-  - REST
+  - Long polling u
+  - REST k
   - RPC
-  - Routing
+  - Routing k
   - DoS
   - DDoS
   - XSS
   - Path traversal
   - CSRF
-  - DNS
+  - DNS u
   - SQL injection
   - noDelay
-  - keep-alive
-  - IP sticky sessions
+  - keep-alive h
+  - IP sticky sessions h
 - Technique and tools
   - Native test runner
-  - Logging
+  - Logging h
   - Application configuring
   - Testing
   - CI/CD
-  - Readable
-  - Writable
-  - Transform
+  - Readable u
+  - Writable u
+  - Transform k
   - Back pressure
-  - Buffer
-  - Console
+  - Buffer u
+  - Console u
   - Inspector
 - Data access
   - Data access layer
@@ -110,8 +110,8 @@
   - CRUD
   - DTO
 - Error handling and debugging
-  - `Error`
-  - `error.cause`
+  - `Error` u
+  - `error.cause` k
   - `error.code`
   - `error.message`
   - `error.stack`
@@ -121,11 +121,11 @@
   - Heap dump
   - Debugging tools
   - Flame graph
-  - Memory leaks
+  - Memory leaks k
   - Resource leaks
   - Data race
 - Integrations and bindings
-  - Native addons
+  - Native addons h
   - `C` and `C++` addons
   - `Rust` addons
   - `Zig` addons
