@@ -1,48 +1,48 @@
 ## Node.js and backend
 
 - Internals and concepts
-  - Strong and weak sides of node.js h
-  - Stateful and stateless servers h
-  - Nonblocking I/O and blocking code k
-  - Event loop phases k
-  - Event loop microtasks and macrotasks k
-  - Garbage collection u
+  - Strong and weak sides of node.js: 👂 heard
+  - Stateful and stateless servers: 👂 heard
+  - Nonblocking I/O and blocking code: 🎓 known
+  - Event loop phases: 🎓 known
+  - Event loop microtasks and macrotasks: 🎓 known
+  - Garbage collection: 🖐️ used
   - Node.js LTS schedule
   - I/O-bound, CPU-bound, memory-bound tasks
   - Interactive applications (close to real-time)
 - Modularity, layers and dependencies
-  - CommonJS modules k
-  - ECMAScript modules k
+  - CommonJS modules: 🎓 known
+  - ECMAScript modules: 🎓 known
   - Module `node:module`
   - Caching in CJS and ESM
   - Modules as singletons
-  - Contexts and scripts module `node:vm` h
-  - Dependencies: `npm`, `node_modules` k
-  - Files `package.json`, `package-lock.json` k
+  - Contexts and scripts module `node:vm`: 👂 heard
+  - Dependencies: `npm`, `node_modules`: 🎓 known
+  - Files `package.json`, `package-lock.json`: 🎓 known
   - Module-based permissions model
   - Isolation with modularity
-  - Dependency injection h
+  - Dependency injection: 👂 heard
   - DI containers
   - Coupling and cohesion
   - Framework agnostic approach
 - Environment
   - Command line arguments
-  - Node.js CLI h
+  - Node.js CLI: 👂 heard
   - Process-based permissions
-  - Graceful shutdown k
-  - Clustering h
-  - Watch filesystem changes with --watch h
+  - Graceful shutdown: 🎓 known
+  - Clustering: 👂 heard
+  - Watch filesystem changes with --watch: 👂 heard
 - Internal API
-  - Streams API h
+  - Streams API: 👂 heard
   - Web Streams API
-  - Crypto API h
+  - Crypto API: 👂 heard
   - Password hashing with crypto.scrypt
   - Web Crypto API
-  - File system API (sync and async) k
+  - File system API (sync and async): 🎓 known
   - Copy folder recursively
-  - Worker threads h
+  - Worker threads: 👂 heard
   - Performance hooks
-  - Native fetch and nodejs/undici h
+  - Native fetch and nodejs/undici: 👂 heard
   - async_hooks
   - AsyncLocalStorage
   - AsyncResource
@@ -67,39 +67,39 @@
   - Protocol agnostic approach
   - Fetch API
   - IncomingMessage
-  - HTTP(S) k
-  - TCP/SSL h
-  - UDP k
-  - TLS h
-  - Websocket k
+  - HTTP(S): 🎓 known
+  - TCP/SSL: 👂 heard
+  - UDP: 🎓 known
+  - TLS: 👂 heard
+  - Websocket: 🎓 known
   - SSE
   - HTTP/3 (QUIC)
-  - Long polling u
-  - REST k
+  - Long polling: 🖐️ used
+  - REST: 🎓 known
   - RPC
-  - Routing k
+  - Routing: 🎓 known
   - DoS
   - DDoS
   - XSS
   - Path traversal
   - CSRF
-  - DNS u
+  - DNS: 🖐️ used
   - SQL injection
   - noDelay
-  - keep-alive h
-  - IP sticky sessions h
+  - keep-alive: 👂 heard
+  - IP sticky sessions: 👂 heard
 - Technique and tools
   - Native test runner
-  - Logging h
+  - Logging: 👂 heard
   - Application configuring
   - Testing
   - CI/CD
-  - Readable u
-  - Writable u
-  - Transform k
+  - Readable: 🖐️ used
+  - Writable: 🖐️ used
+  - Transform: 🎓 known
   - Back pressure
-  - Buffer u
-  - Console u
+  - Buffer: 🖐️ used
+  - Console: 🖐️ used
   - Inspector
 - Data access
   - Data access layer
@@ -110,8 +110,8 @@
   - CRUD
   - DTO
 - Error handling and debugging
-  - `Error` u
-  - `error.cause` k
+  - `Error`: 🖐️ used
+  - `error.cause`: 🎓 known
   - `error.code`
   - `error.message`
   - `error.stack`
@@ -121,11 +121,11 @@
   - Heap dump
   - Debugging tools
   - Flame graph
-  - Memory leaks k
+  - Memory leaks: 🎓 known
   - Resource leaks
   - Data race
 - Integrations and bindings
-  - Native addons h
+  - Native addons: 👂 heard
   - `C` and `C++` addons
   - `Rust` addons
   - `Zig` addons
